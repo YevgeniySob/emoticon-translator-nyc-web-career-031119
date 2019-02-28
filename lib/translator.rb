@@ -6,7 +6,7 @@ def load_library(file_path)
     file.each do |meaning, arr|
     english, japanese = arr
     library["get_emoticon"][english] = japanese
-    library["get_emoticon"][japanese] = meaning
+    library["get_meaning"][japanese] = meaning
   end
   library
 end
