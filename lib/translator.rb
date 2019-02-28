@@ -17,7 +17,8 @@ def get_japanese_emoticon
   if element
     element
   else
-    
+    "Sorry, that emoticon was not found"
+  end
 end
 
 def get_english_meaning
